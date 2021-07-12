@@ -89,7 +89,7 @@ login.Text = "Log in"
 login.TextColor3 = Color3.fromRGB(0, 0, 0)
 login.TextSize = 20.000
 login.MouseButton1Down:connect(function()
-	if password.Text == "new31ke53yk" then
+	if password.Text == "new2334key192per2days" then
 		LoginFrame.Visible = false
 		openmain.Visible = true
 	end
