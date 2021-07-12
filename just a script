@@ -1,0 +1,1492 @@
+-- Made by Fasty#0214
+
+local ScreenGui = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local loginlabel = Instance.new("TextLabel")
+local password = Instance.new("TextBox")
+local login = Instance.new("TextButton")
+local loginframekeyinfo = Instance.new("TextButton")
+local main = Instance.new("Frame")
+local firstframe = Instance.new("Frame")
+local rep = Instance.new("TextButton")
+local chatlog = Instance.new("TextButton")
+local rank = Instance.new("TextButton")
+local respawnb = Instance.new("TextButton")
+local ultragrap = Instance.new("TextButton")
+local darkmenu = Instance.new("TextButton")
+local hhresp = Instance.new("TextButton")
+local split = Instance.new("TextButton")
+local antivoid = Instance.new("TextButton")
+local multichecker = Instance.new("TextButton")
+local daily = Instance.new("TextButton")
+local weekly = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local rightarrow = Instance.new("TextButton")
+local closemain = Instance.new("TextButton")
+local secondframe = Instance.new("Frame")
+local attackoff = Instance.new("TextButton")
+local spawnon = Instance.new("TextButton")
+local psychicon = Instance.new("TextButton")
+local earrape = Instance.new("TextButton")
+local hitlag = Instance.new("TextButton")
+local spawnoff = Instance.new("TextButton")
+local psychicoff = Instance.new("TextButton")
+local rejoin = Instance.new("TextButton")
+local removeff = Instance.new("TextButton")
+local god = Instance.new("TextButton")
+local keyinfo = Instance.new("TextButton")
+local attackon = Instance.new("TextButton")
+local leftarrow = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+local loginkeyinfo = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local closekeyinfo = Instance.new("TextButton")
+
+
+ScreenGui.Parent = game.CoreGui
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = ScreenGui
+LoginFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoginFrame.Position = UDim2.new(0.334355325, 0, 0.144249499, 0)
+LoginFrame.Size = UDim2.new(0, 273, 0, 330)
+LoginFrame.Style = Enum.FrameStyle.RobloxRound
+LoginFrame.Active = true
+LoginFrame.Draggable = true
+
+loginlabel.Name = "login label"
+loginlabel.Parent = LoginFrame
+loginlabel.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+loginlabel.BorderColor3 = Color3.fromRGB(48, 48, 48)
+loginlabel.Position = UDim2.new(0.0120623801, 0, 0.00620752946, 0)
+loginlabel.Size = UDim2.new(0, 250, 0, 50)
+loginlabel.Font = Enum.Font.GothamSemibold
+loginlabel.Text = "Login Frame"
+loginlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+loginlabel.TextSize = 30.000
+loginlabel.TextWrapped = true
+
+password.Name = "password"
+password.Parent = LoginFrame
+password.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+password.BorderColor3 = Color3.fromRGB(42, 42, 42)
+password.Position = UDim2.new(0.109890118, 0, 0.387878776, 0)
+password.Size = UDim2.new(0, 200, 0, 50)
+password.Font = Enum.Font.GothamSemibold
+password.Text = "Key here"
+password.TextColor3 = Color3.fromRGB(0, 0, 0)
+password.TextSize = 25.000
+
+login.Name = "login"
+login.Parent = LoginFrame
+login.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+login.BorderColor3 = Color3.fromRGB(42, 42, 42)
+login.Position = UDim2.new(0.199247807, 0, 0.636209249, 0)
+login.Size = UDim2.new(0, 153, 0, 36)
+login.Font = Enum.Font.GothamSemibold
+login.Text = "Log in"
+login.TextColor3 = Color3.fromRGB(0, 0, 0)
+login.TextSize = 20.000
+login.MouseButton1Down:connect(function()
+	if password.Text == "s21309suqmadiq21309forkey213" then
+		LoginFrame.Visible = false
+		openmain.Visible = true
+	end
+end)
+
+loginframekeyinfo.Name = "loginframekeyinfo"
+loginframekeyinfo.Parent = LoginFrame
+loginframekeyinfo.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+loginframekeyinfo.BorderColor3 = Color3.fromRGB(42, 42, 42)
+loginframekeyinfo.Position = UDim2.new(0.309731185, 0, 0.881409883, 0)
+loginframekeyinfo.Size = UDim2.new(0, 173, 0, 33)
+loginframekeyinfo.Font = Enum.Font.GothamSemibold
+loginframekeyinfo.Text = "Not logging? get a new key"
+loginframekeyinfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+loginframekeyinfo.TextScaled = true
+loginframekeyinfo.TextSize = 14.000
+loginframekeyinfo.TextWrapped = true
+loginframekeyinfo.MouseButton1Down:connect(function()
+	loginkeyinfo.Visible = true
+end)
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.275548726, 0, 0.0779727697, 0)
+main.Size = UDim2.new(0, 578, 0, 296)
+main.SizeConstraint = Enum.SizeConstraint.RelativeYY
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+firstframe.Name = "firstframe"
+firstframe.Parent = main
+firstframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+firstframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+firstframe.Position = UDim2.new(0.0444325507, 0, 0.129979312, 0)
+firstframe.Size = UDim2.new(0, 532, 0, 243)
+firstframe.Visible = true
+
+rep.Name = "rep"
+rep.Parent = firstframe
+rep.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+rep.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rep.Position = UDim2.new(0.0124423765, 0, 0.345575035, 0)
+rep.Size = UDim2.new(0, 151, 0, 37)
+rep.Font = Enum.Font.GothamSemibold
+rep.Text = "No rep take"
+rep.TextColor3 = Color3.fromRGB(0, 0, 0)
+rep.TextSize = 20.000
+rep.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.NameBbGui.NameTxt: Destroy()
+end)
+
+chatlog.Name = "chatlog"
+chatlog.Parent = firstframe
+chatlog.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+chatlog.BorderColor3 = Color3.fromRGB(0, 0, 0)
+chatlog.Position = UDim2.new(0.697807252, 0, 0.109141856, 0)
+chatlog.Size = UDim2.new(0, 152, 0, 37)
+chatlog.Font = Enum.Font.GothamSemibold
+chatlog.Text = "Anti chat log (no ban for swearing)"
+chatlog.TextColor3 = Color3.fromRGB(0, 0, 0)
+chatlog.TextScaled = true
+chatlog.TextSize = 12.000
+chatlog.TextWrapped = true
+chatlog.MouseButton1Down:connect(function()
+	local mt = getrawmetatable(game)
+local old = mt.__namecall
+setreadonly(mt, false)
+   
+mt.__namecall = newcclosure(function(self, ...)
+
+   local args = {...}
+   local method = getnamecallmethod()
+
+   if method == "Fire" and self.Name == "MessagePosted" then
+       return wait(9e9)
+   end
+
+   return old(self, ...)
+
+end)
+end)
+
+rank.Name = "rank"
+rank.Parent = firstframe
+rank.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+rank.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rank.Position = UDim2.new(0.351583481, 0, 0.105959289, 0)
+rank.Size = UDim2.new(0, 152, 0, 37)
+rank.Font = Enum.Font.GothamSemibold
+rank.Text = "Rank changer"
+rank.TextColor3 = Color3.fromRGB(0, 0, 0)
+rank.TextSize = 20.000
+rank.MouseButton1Down:connect(function()
+	while wait do
+		wait (.2) -- how fast to switch between ranks
+		local Remote = game.ReplicatedStorage['RemoteEvent']
+
+		local Arguments = {
+			[1] = {
+				[1] = "ChangeRankEmblem",
+				[2] = math.random (1,9) --1 = min rank 12 = max rank
+			}
+		}
+
+		Remote:FireServer(unpack(Arguments))
+	end
+end)
+
+respawnb.Name = "respawnb"
+respawnb.Parent = firstframe
+respawnb.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+respawnb.BorderColor3 = Color3.fromRGB(42, 42, 42)
+respawnb.Position = UDim2.new(0.0113579128, 0, 0.108766884, 0)
+respawnb.Size = UDim2.new(0, 152, 0, 37)
+respawnb.Font = Enum.Font.GothamSemibold
+respawnb.Text = "Respawn (key f1)"
+respawnb.TextColor3 = Color3.fromRGB(0, 0, 0)
+respawnb.TextSize = 16.000
+respawnb.MouseButton1Down:connect(function()
+	local SavePosition = Instance.new("TextLabel")
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+			game.Lighting.Blur.Enabled = false
+			game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
+			game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
+			lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
+			lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
+			lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
+			SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
+			--print(tostring(SavePosition.Text))
+			--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
+			--print(tostring(SavePosition.Text))
+			wait(1.8)
+			--print("screengui disabled")
+			repeat wait() until game.Players.LocalPlayer.Character.Humanoid
+			--print("Teleporting back to " ..tostring(SavePosition.Text))
+			local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+		end
+	end)
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			_G.on = 1
+			while _G.on == 1
+			do
+				game.Lighting.Blur.Enabled = false
+				game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
+				game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
+				wait()	
+			end
+		end
+	end)
+end)
+
+ultragrap.Name = "ultragrap"
+ultragrap.Parent = firstframe
+ultragrap.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ultragrap.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ultragrap.Position = UDim2.new(0.350788236, 0, 0.608949542, 0)
+ultragrap.Size = UDim2.new(0, 151, 0, 37)
+ultragrap.Font = Enum.Font.GothamSemibold
+ultragrap.Text = "Ultra graphics (not recommended for weak performance PCs)"
+ultragrap.TextColor3 = Color3.fromRGB(0, 0, 0)
+ultragrap.TextScaled = true
+ultragrap.TextSize = 20.000
+ultragrap.TextWrapped = true
+ultragrap.MouseButton1Down:connect(function()
+	-- // Constants \\ --
+
+	-- [ Services ] --
+	local Services = {}
+	Services.RunService = game:GetService("RunService")
+
+	-- [ Custom Functions ] --
+	local IsExploit = not Services.RunService:IsStudio()
+
+	local CustomFunctions = {}
+	CustomFunctions.SetHidden = sethiddenproperty or set_hidden_property or set_hidden_prop
+
+	-- [ GraphicX ] --
+	local GraphicX = {}
+
+	-- Create --
+	function GraphicX.new(Class, Properties)
+		-- Creates the Instance --
+		local NewInstance = Instance.new(Class)
+
+		-- Sets the Properties --
+		for i,v in pairs(Properties) do
+			if NewInstance[i] ~= nil and i ~= "Parent" then
+				NewInstance[i] = v
+			end
+		end
+
+		-- Sets Parent --
+		if Properties.Parent then
+			NewInstance.Parent = Properties.Parent
+		end
+
+		return NewInstance
+	end
+
+	function GraphicX.SetProperty(Object, Properties)
+		-- Sets the Properties --
+		for i,v in pairs(Properties) do
+			if Object[i] ~= nil and i ~= "Parent" then
+				Object[i] = v
+			end
+		end
+
+		-- Sets Parent --
+		if Properties.Parent then
+			Object.Parent = Properties.Parent
+		end
+	end
+
+	-- [ Instances ] --
+	local Lighting = game:GetService("Lighting")
+	local Terrain = workspace.Terrain
+
+	local LightingSaves = GraphicX.new("Folder", {Name = "LightingSaves", Parent = nil})
+
+
+	-- // Main \\ --
+	function GraphicX.Enhance(Settings)
+		local GraphicSettings = Settings or {
+			FogEnabled = true,
+			WaterEnabled = true
+		}
+
+		-- [ Clears Lighting ] --
+		for i,v in ipairs(Lighting:GetChildren()) do
+			if v:IsA("PostEffect") and not string.find(v.Name, "GraphicX") then
+				v.Parent = LightingSaves
+			end
+		end
+
+		-- [ Sets Properties ] --
+
+		-- Lighting --
+		if GraphicSettings.FogEnabled then
+			GraphicX.SetProperty(Lighting, {
+				FogEnd = 500,
+				FogStart = 25
+			})
+		end
+
+		if IsExploit then
+			CustomFunctions.SetHidden(Lighting, "Technology", Enum.Technology.Future)
+			settings().Rendering.QualityLevel = 21
+		end
+
+		-- Terrain --
+		if GraphicSettings.WaterEnabled then
+			GraphicX.SetProperty(Terrain, {
+				WaterColor = Color3.fromRGB(131, 165, 164),
+				WaterReflectance = 0.05,
+				WaterTransparency = 1,
+				WaterWaveSize = 0.05,
+				WaterWaveSpeed = 25
+			})
+		end
+
+		-- [ Creates Effects ] --
+		GraphicX.LightingEffects = {
+			GraphicX.new("BloomEffect", {
+				Name = "GraphicXBloom",
+				Parent = Lighting,
+				Intensity = 0.75,
+				Size = 15,
+				Threshold = 0.95
+			}),
+			GraphicX.new("BlurEffect", {
+				Name = "GraphicXBlur",
+				Parent = Lighting,
+				Size = 5
+			}),
+			GraphicX.new("DepthOfFieldEffect", {
+				Name = "GraphicXDepth",
+				Parent = Lighting,
+				FarIntensity = 0.15,
+				FocusDistance = 0.05,
+				InFocusRadius = 20,
+				NearIntensity = 0.75
+			}),
+			GraphicX.new("SunRaysEffect", {
+				Name = "GraphicXRays",
+				Parent = Lighting,
+				Intensity = 0.25,
+				Spread = 0.5
+			})
+		}
+	end
+
+	GraphicX.Enhance({
+		FogEnabled = true,
+		WaterEnabled = true
+	})
+
+	return GraphicX
+
+end)
+
+darkmenu.Name = "darkmenu"
+darkmenu.Parent = firstframe
+darkmenu.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+darkmenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+darkmenu.Position = UDim2.new(0.0105626769, 0, 0.608949542, 0)
+darkmenu.Size = UDim2.new(0, 151, 0, 37)
+darkmenu.Font = Enum.Font.GothamSemibold
+darkmenu.Text = "Dark menu"
+darkmenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+darkmenu.TextSize = 20.000
+darkmenu.MouseButton1Down:connect(function()
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuBtn.BackgroundColor3 = Color3.new(0,0,0)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.BackgroundColor3 = Color3.new(0,0,0)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.GangFrame.BackgroundColor3 = Color3.new(0,0,0)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SpecialFrame.BackgroundColor3 = Color3.new(0,0,0)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.BackgroundColor3 = Color3.new(0,0,0)
+	game:GetService('Players').LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.BackgroundColor3 = Color3.new(0,0,0)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.NameTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.RankTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.StatusTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.KilledTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.FSTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.BTTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.MSTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.JFTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.PPTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.RepTxt.TextColor3 = Color3.new(255, 255, 255)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.InfoFrame.GuideTxt.TextColor3 = Color3.new(0, 0, 0)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt1.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt2.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt3.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt4.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt5.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt6.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt7.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt8.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt9.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt10.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt11.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt13.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt14.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt15.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt16.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt17.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt18.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SkillFrame.SkillTxt19.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt1.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt2.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt3.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt4.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt5.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt6.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt7.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt8.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt9.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt10.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt11.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt12.TextColor3 =Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt13.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt14.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt15.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt16.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt17.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt18.TextColor3 = Color3.new(74, 195, 68)
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.MenuFrame.SettingFrame.SettingTxt0.TextColor3 = Color3.new(74, 195, 68)
+end)
+hhresp.Name = "hhresp"
+hhresp.Parent = firstframe
+hhresp.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+hhresp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hhresp.Position = UDim2.new(0.698532581, 0, 0.345575035, 0)
+hhresp.Size = UDim2.new(0, 151, 0, 37)
+hhresp.Font = Enum.Font.GothamSemibold
+hhresp.Text = "Safety mode (respawn after half health)"
+hhresp.TextColor3 = Color3.fromRGB(0, 0, 0)
+hhresp.TextScaled = true
+hhresp.TextSize = 15.000
+hhresp.TextWrapped = true
+hhresp.MouseButton1Down:connect(function()
+	local Imput = game:GetService("UserInputService")
+	Imput.InputBegan:connect(function(inst)
+		if inst.KeyCode == Enum.KeyCode.F1 then
+			_G.on = 1
+			while _G.on == 1
+			do
+				print("Script was made by Fasty")
+				wait(9)
+				local SavePosition = Instance.new("TextLabel")
+				player = game.Players.LocalPlayer.Character.Humanoid
+				player.HealthChanged:Connect(function(hp)
+					if hp <= player.MaxHealth * 0.5 then
+						wait()
+						game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+						lastlocationx = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
+						lastlocationy = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y
+						lastlocationz = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
+						SavePosition.Text = "Last Place: " ..lastlocationx.. "," ..lastlocationy.. "," ..lastlocationz.. ","
+						--print(tostring(SavePosition.Text))
+						--print("Player " ..tostring(game.Players.LocalPlayer.Name).. " Respawn")
+						--print(tostring(SavePosition.Text))
+						wait(1.599)
+						--print("screengui disabled")
+						repeat wait() until game.Players.LocalPlayer.Character.Humanoid
+						--print("Teleporting back to " ..tostring(SavePosition.Text))
+						local FindHum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastlocationx, lastlocationy, lastlocationz)
+					end
+				end)
+			end
+		end
+	end)
+end)
+split.Name = "split"
+split.Parent = firstframe
+split.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+split.BorderColor3 = Color3.fromRGB(0, 0, 0)
+split.Position = UDim2.new(0.350788236, 0, 0.345575035, 0)
+split.Size = UDim2.new(0, 151, 0, 37)
+split.Font = Enum.Font.GothamSemibold
+split.Text = "Split"
+split.TextColor3 = Color3.fromRGB(0, 0, 0)
+split.TextSize = 20.000
+split.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.UpperTorso.Waist:remove()
+end)
+antivoid.Name = "antivoid"
+antivoid.Parent = firstframe
+antivoid.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+antivoid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antivoid.Position = UDim2.new(0.696652889, 0, 0.608949542, 0)
+antivoid.Size = UDim2.new(0, 151, 0, 37)
+antivoid.Font = Enum.Font.GothamSemibold
+antivoid.Text = "Best antivoid"
+antivoid.TextColor3 = Color3.fromRGB(0, 0, 0)
+antivoid.TextSize = 20.000
+antivoid.MouseButton1Down:connect(function()
+	while wait() do
+		if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+			game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+		end
+		game.Players.LocalPlayer.Backpack:ClearAllChildren()
+	end
+end)
+multichecker.Name = "multichecker"
+multichecker.Parent = firstframe
+multichecker.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+multichecker.BorderColor3 = Color3.fromRGB(0, 0, 0)
+multichecker.Position = UDim2.new(0.0105626527, 0, 0.847632647, 0)
+multichecker.Size = UDim2.new(0, 151, 0, 37)
+multichecker.Font = Enum.Font.GothamSemibold
+multichecker.Text = "Multiplier checker"
+multichecker.TextColor3 = Color3.fromRGB(0, 0, 0)
+multichecker.TextScaled = true
+multichecker.TextSize = 20.000
+multichecker.TextWrapped = true
+multichecker.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FastyGame31/multi-checker/main/fasty"))()
+end)
+daily.Name = "daily"
+daily.Parent = firstframe
+daily.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+daily.BorderColor3 = Color3.fromRGB(0, 0, 0)
+daily.Position = UDim2.new(0.350788206, 0, 0.847632647, 0)
+daily.Size = UDim2.new(0, 151, 0, 37)
+daily.Font = Enum.Font.GothamSemibold
+daily.Text = "Dailies (takes all daily quests)"
+daily.TextColor3 = Color3.fromRGB(0, 0, 0)
+daily.TextScaled = true
+daily.TextSize = 20.000
+daily.TextWrapped = true
+daily.MouseButton1Down:connect(function()
+	if game.PlaceId ~= 2202352383 then
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+		return
+	end
+
+	local args = {
+		[1] = {
+			[1] = "DLQ",
+			[2] = "FS",
+			[3] = "Claim",
+		},
+	}
+
+	while wait(5) do
+		print("working")
+		for _, v in pairs({ "FS", "BT", "MS", "JF", "PP" }) do
+			args[1][2] = v
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			wait()
+		end
+
+		wait()
+		print("dailys collected")
+		end
+end)
+weekly.Name = "weekly"
+weekly.Parent = firstframe
+weekly.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+weekly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+weekly.Position = UDim2.new(0.696652889, 0, 0.847632647, 0)
+weekly.Size = UDim2.new(0, 151, 0, 37)
+weekly.Font = Enum.Font.GothamSemibold
+weekly.Text = "Weeklies (takes all weekly quests)"
+weekly.TextColor3 = Color3.fromRGB(0, 0, 0)
+weekly.TextScaled = true
+weekly.TextSize = 20.000
+weekly.TextWrapped = true
+weekly.MouseButton1Down:connect(function()
+	if game.PlaceId ~= 2202352383 then
+		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+		return
+	end
+
+	local args = {
+		[1] = {
+			[1] = "WLQ",
+			[2] = "FS1",
+			[3] = "Claim",
+		},
+	}
+
+	while wait(5) do
+		print("working")
+		for _, v in pairs({ "FS1", "PP1", "BT1", "FS2", "BT2", "PP2", "FS3", "BT3", "PP3" }) do
+			args[1][2] = v
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+			wait()
+		end
+
+		wait()
+	end
+end)
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Size = UDim2.new(0, 578, 0, 29)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Spts Official Script"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+rightarrow.Name = "rightarrow"
+rightarrow.Parent = main
+rightarrow.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+rightarrow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rightarrow.Position = UDim2.new(0.837373435, 0, 0.0127677154, 0)
+rightarrow.Size = UDim2.new(0, 27, 0, 20)
+rightarrow.Font = Enum.Font.SourceSans
+rightarrow.Text = ">"
+rightarrow.TextColor3 = Color3.fromRGB(0, 0, 0)
+rightarrow.TextSize = 16.000
+rightarrow.MouseButton1Down:connect(function()
+	firstframe.Visible = false
+	secondframe.Visible = true
+end)
+
+closemain.Name = "closemain"
+closemain.Parent = main
+closemain.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+closemain.BorderColor3 = Color3.fromRGB(0, 0, 0)
+closemain.Position = UDim2.new(0.946369946, 0, 0.0127677154, 0)
+closemain.Size = UDim2.new(0, 27, 0, 20)
+closemain.Font = Enum.Font.SourceSans
+closemain.Text = "X"
+closemain.TextColor3 = Color3.fromRGB(0, 0, 0)
+closemain.TextSize = 16.000
+closemain.MouseButton1Down:connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+secondframe.Name = "secondframe"
+secondframe.Parent = main
+secondframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+secondframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+secondframe.Position = UDim2.new(0.0444325507, 0, 0.126600936, 0)
+secondframe.Size = UDim2.new(0, 532, 0, 243)
+secondframe.Visible = false
+
+attackoff.Name = "attackoff"
+attackoff.Parent = secondframe
+attackoff.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+attackoff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+attackoff.Position = UDim2.new(0.0124423765, 0, 0.345575035, 0)
+attackoff.Size = UDim2.new(0, 151, 0, 37)
+attackoff.Font = Enum.Font.GothamSemibold
+attackoff.Text = "Auto Attack Off"
+attackoff.TextColor3 = Color3.fromRGB(0, 0, 0)
+attackoff.TextSize = 20.000
+attackoff.MouseButton1Down:connect(function()
+	_G.on = 0
+	while _G.on == 1
+	do
+		wait()
+		local ohTable1 = {
+			[1] = "Skill_BulletPunch",
+			[2] = "Left",
+			[3] = Vector3.new(game.Players.LocalPlayer.Character.LowerTorso.Position)
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+		local ohTable1 = {
+			[1] = "Skill_BulletPunch",
+			[2] = "Right",
+			[3] = Vector3.new(game.Players.LocalPlayer.Character.LowerTorso.Position)
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+		local ohTable1 = {
+			[1] = "Skill_SpherePunch",
+			[2] = Vector3.new(game.Players.LocalPlayer.Character.LowerTorso.Position)
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+		local ohTable1 = {
+			[1] = "Skill_Punch",
+			[2] = "Right"
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+	end
+end)
+spawnon.Name = "spawnon"
+spawnon.Parent = secondframe
+spawnon.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+spawnon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+spawnon.Position = UDim2.new(0.697807252, 0, 0.109141856, 0)
+spawnon.Size = UDim2.new(0, 152, 0, 37)
+spawnon.Font = Enum.Font.GothamSemibold
+spawnon.Text = "Loop Spawn On (use when you're afk)"
+spawnon.TextColor3 = Color3.fromRGB(0, 0, 0)
+spawnon.TextScaled = true
+spawnon.TextSize = 20.000
+spawnon.TextWrapped = true
+spawnon.MouseButton1Down:connect(function()
+	_G.on = 1
+	while _G.on == 1
+	do
+		local args = {
+			[1] = {
+				[1] = "Respawn"
+			}
+		}
+		wait(0.5)
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280, 281, 1002)
+	end
+end)
+psychicon.Name = "psychicon"
+psychicon.Parent = secondframe
+psychicon.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+psychicon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+psychicon.Position = UDim2.new(0.351583481, 0, 0.105959289, 0)
+psychicon.Size = UDim2.new(0, 152, 0, 37)
+psychicon.Font = Enum.Font.GothamSemibold
+psychicon.Text = "Auto Soul all On"
+psychicon.TextColor3 = Color3.fromRGB(0, 0, 0)
+psychicon.TextSize = 20.000
+psychicon.TextWrapped = true
+psychicon.MouseButton1Down:connect(function()
+	_G.on = 1
+	while _G.on == 1
+	do
+		for i,v in pairs(game.Players:GetPlayers()) do
+			pcall(function()
+				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_Start",game.Players[v.Name]})
+				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_End"})
+			end)
+
+			wait()
+		end
+	end
+end)
+earrape.Name = "earrape"
+earrape.Parent = secondframe
+earrape.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+earrape.BorderColor3 = Color3.fromRGB(0, 0, 0)
+earrape.Position = UDim2.new(0.350788236, 0, 0.608949542, 0)
+earrape.Size = UDim2.new(0, 151, 0, 37)
+earrape.Font = Enum.Font.GothamSemibold
+earrape.Text = "Ear rape (take volume down a bit)"
+earrape.TextColor3 = Color3.fromRGB(0, 0, 0)
+earrape.TextScaled = true
+earrape.TextSize = 20.000
+earrape.TextWrapped = true
+earrape.MouseButton1Down:connect(function()
+	while wait(0.2) do
+		for _,plr in pairs(game.Players:GetPlayers()) do
+			pcall(function()
+				for _,obj in pairs(plr.Character.Head:GetChildren()) do
+					if obj:IsA("Sound") then
+						obj:Play()
+					end
+				end
+			end)
+		end
+	end
+end)
+hitlag.Name = "hitlag"
+hitlag.Parent = secondframe
+hitlag.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+hitlag.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hitlag.Position = UDim2.new(0.0105626769, 0, 0.608949542, 0)
+hitlag.Size = UDim2.new(0, 151, 0, 37)
+hitlag.Font = Enum.Font.GothamSemibold
+hitlag.Text = "No hit lag (balls and lasers)"
+hitlag.TextColor3 = Color3.fromRGB(0, 0, 0)
+hitlag.TextScaled = true
+hitlag.TextSize = 20.000
+hitlag.TextWrapped = true
+hitlag.MouseButton1Down:connect(function()
+	while wait(.5) do
+		for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+			if v.Name == "TouchInterest" then
+				v:Destroy()
+			end
+		end
+	end
+end)
+spawnoff.Name = "spawnoff"
+spawnoff.Parent = secondframe
+spawnoff.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+spawnoff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+spawnoff.Position = UDim2.new(0.698532581, 0, 0.345575035, 0)
+spawnoff.Size = UDim2.new(0, 151, 0, 37)
+spawnoff.Font = Enum.Font.GothamSemibold
+spawnoff.Text = "Loop Spawn Off"
+spawnoff.TextColor3 = Color3.fromRGB(0, 0, 0)
+spawnoff.TextSize = 20.000
+spawnoff.MouseButton1Down:connect(function()
+	_G.on = 0
+	while _G.on == 1
+	do
+		local args = {
+			[1] = {
+				[1] = "Respawn"
+			}
+		}
+		wait(0.5)
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-280, 281, 1002)
+	end
+
+end)
+psychicoff.Name = "psychicoff"
+psychicoff.Parent = secondframe
+psychicoff.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+psychicoff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+psychicoff.Position = UDim2.new(0.350788236, 0, 0.345575035, 0)
+psychicoff.Size = UDim2.new(0, 151, 0, 37)
+psychicoff.Font = Enum.Font.GothamSemibold
+psychicoff.Text = "Auto Soul all Off"
+psychicoff.TextColor3 = Color3.fromRGB(0, 0, 0)
+psychicoff.TextSize = 20.000
+psychicoff.MouseButton1Down:connect(function()
+	_G.on = 0
+	while _G.on == 1
+	do
+		for i,v in pairs(game.Players:GetPlayers()) do
+			pcall(function()
+				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_Start",game.Players[v.Name]})
+				game.ReplicatedStorage.RemoteEvent:FireServer({"Skill_SoulAttack_End"})
+			end)
+
+			wait()
+		end
+	end
+end)
+rejoin.Name = "rejoin"
+rejoin.Parent = secondframe
+rejoin.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+rejoin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rejoin.Position = UDim2.new(0.696652889, 0, 0.608949542, 0)
+rejoin.Size = UDim2.new(0, 151, 0, 37)
+rejoin.Font = Enum.Font.GothamSemibold
+rejoin.Text = "Rejoin"
+rejoin.TextColor3 = Color3.fromRGB(0, 0, 0)
+rejoin.TextSize = 20.000
+rejoin.MouseButton1Down:connect(function()
+	local ts = game:GetService("TeleportService")
+	local p = game:GetService("Players").LocalPlayer
+
+	ts:Teleport(game.PlaceId, p)
+end)
+removeff.Name = "removeff"
+removeff.Parent = secondframe
+removeff.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+removeff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+removeff.Position = UDim2.new(0.0105626527, 0, 0.847632647, 0)
+removeff.Size = UDim2.new(0, 151, 0, 37)
+removeff.Font = Enum.Font.GothamSemibold
+removeff.Text = "Remove shield (after respawn)"
+removeff.TextColor3 = Color3.fromRGB(0, 0, 0)
+removeff.TextScaled = true
+removeff.TextSize = 20.000
+removeff.TextWrapped = true
+removeff.MouseButton1Down:connect(function()
+	while true do
+		wait()
+		for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+			if v.Name == "ForceField" then
+				v:Destroy()
+			end
+		end
+	end
+end)
+god.Name = "god"
+god.Parent = secondframe
+god.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+god.BorderColor3 = Color3.fromRGB(0, 0, 0)
+god.Position = UDim2.new(0.350788206, 0, 0.847632647, 0)
+god.Size = UDim2.new(0, 151, 0, 37)
+god.Font = Enum.Font.GothamSemibold
+god.Text = "God Mode (talk to ghost rider before pressing)"
+god.TextColor3 = Color3.fromRGB(0, 0, 0)
+god.TextScaled = true
+god.TextSize = 20.000
+god.TextWrapped = true
+god.MouseButton1Down:connect(function()
+	local Players = game:GetService("Players")
+	local Camera = game:GetService("Workspace"):FindFirstChild("Camera")
+
+	-- Settings of Player
+
+	Players.LocalPlayer.CameraMaxZoomDistance = 400
+	Players.LocalPlayer.CameraMinZoomDistance = 0.5
+	Players.LocalPlayer.CameraMode = Enum.CameraMode.Classic
+
+	-- Settings of Camera
+
+	Camera.FieldOfView = 70
+	Camera.CameraType = "Custom"
+
+	-- Reset Cursor
+
+	game:GetService("UserInputService").MouseIconEnabled = true
+
+	game:GetService("UserInputService").MouseBehavior = Enum.MouseBehavior.Default
+end)
+keyinfo.Name = "keyinfo"
+keyinfo.Parent = secondframe
+keyinfo.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+keyinfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+keyinfo.Position = UDim2.new(0.696652889, 0, 0.847632647, 0)
+keyinfo.Size = UDim2.new(0, 151, 0, 37)
+keyinfo.Font = Enum.Font.GothamSemibold
+keyinfo.Text = "remove rank"
+keyinfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+keyinfo.TextScaled = true
+keyinfo.TextSize = 20.000
+keyinfo.TextWrapped = true
+keyinfo.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.RankBbGui: Destroy()
+end)
+attackon.Name = "attackon"
+attackon.Parent = secondframe
+attackon.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+attackon.BorderColor3 = Color3.fromRGB(42, 42, 42)
+attackon.Position = UDim2.new(0.0113579128, 0, 0.108766884, 0)
+attackon.Size = UDim2.new(0, 152, 0, 37)
+attackon.Font = Enum.Font.GothamSemibold
+attackon.Text = "Auto Attack On"
+attackon.TextColor3 = Color3.fromRGB(0, 0, 0)
+attackon.TextSize = 20.000
+attackon.TextWrapped = true
+attackon.MouseButton1Down:connect(function()
+	_G.on = 1
+	while _G.on == 1
+	do
+		wait()
+		local ohTable1 = {
+			[1] = "Skill_BulletPunch",
+			[2] = "Left",
+			[3] = Vector3.new(game.Players.LocalPlayer.Character.LowerTorso.Position)
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+		local ohTable1 = {
+			[1] = "Skill_BulletPunch",
+			[2] = "Right",
+			[3] = Vector3.new(game.Players.LocalPlayer.Character.LowerTorso.Position)
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+		local ohTable1 = {
+			[1] = "Skill_SpherePunch",
+			[2] = Vector3.new(game.Players.LocalPlayer.Character.LowerTorso.Position)
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+		local ohTable1 = {
+			[1] = "Skill_Punch",
+			[2] = "Right"
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+	end
+end)
+leftarrow.Name = "leftarrow"
+leftarrow.Parent = main
+leftarrow.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+leftarrow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+leftarrow.Position = UDim2.new(0.0916987062, 0, 0.0127677154, 0)
+leftarrow.Size = UDim2.new(0, 27, 0, 20)
+leftarrow.Font = Enum.Font.SourceSans
+leftarrow.Text = "<"
+leftarrow.TextColor3 = Color3.fromRGB(0, 0, 0)
+leftarrow.TextSize = 16.000
+leftarrow.MouseButton1Down:connect(function()
+	secondframe.Visible = false
+	firstframe.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+openmain.BorderColor3 = Color3.fromRGB(42, 42, 42)
+openmain.Position = UDim2.new(0, 0, 0.695906401, 0)
+openmain.Size = UDim2.new(0, 94, 0, 26)
+openmain.Visible = false
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+open.BorderColor3 = Color3.fromRGB(42, 42, 42)
+open.Size = UDim2.new(0, 94, 0, 26)
+open.Font = Enum.Font.GothamSemibold
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 20.000
+open.MouseButton1Down:connect(function()
+	main.Visible = true
+	openmain.Visible = false
+end)
+
+loginkeyinfo.Name = "loginkeyinfo"
+loginkeyinfo.Parent = ScreenGui
+loginkeyinfo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+loginkeyinfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+loginkeyinfo.Position = UDim2.new(0.458484918, 0, 0.637426972, 0)
+loginkeyinfo.Size = UDim2.new(0, 402, 0, 154)
+loginkeyinfo.Visible = false
+loginkeyinfo.Active = true
+TextLabel_2.Parent = loginkeyinfo
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.054726366, 0, 0.038961038, 0)
+TextLabel_2.Size = UDim2.new(0, 353, 0, 142)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Go to this link - \"up-to-down.net/114723/key\" then get the key"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+closekeyinfo.Name = "closekeyinfo"
+closekeyinfo.Parent = loginkeyinfo
+closekeyinfo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+closekeyinfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+closekeyinfo.Position = UDim2.new(0.932580829, 0, -0.00517714024, 0)
+closekeyinfo.Size = UDim2.new(0, 27, 0, 20)
+closekeyinfo.Font = Enum.Font.SourceSans
+closekeyinfo.Text = "X"
+closekeyinfo.TextColor3 = Color3.fromRGB(255, 255, 255)
+closekeyinfo.TextSize = 16.000
+closekeyinfo.MouseButton1Down:connect(function()
+	loginkeyinfo.Visible = false
+end)
+-- Scripts:
+
+local function JGQXEH_fake_script() -- rep.Rainbow 
+	local script = Instance.new('LocalScript', rep)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(JGQXEH_fake_script)()
+local function VBCKRG_fake_script() -- chatlog.Rainbow 
+	local script = Instance.new('LocalScript', chatlog)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(VBCKRG_fake_script)()
+local function ZIRPMWA_fake_script() -- rank.Rainbow 
+	local script = Instance.new('LocalScript', rank)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(ZIRPMWA_fake_script)()
+local function AXCR_fake_script() -- respawnb.Rainbow 
+	local script = Instance.new('LocalScript', respawnb)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(AXCR_fake_script)()
+local function VSFL_fake_script() -- ultragrap.Rainbow 
+	local script = Instance.new('LocalScript', ultragrap)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(VSFL_fake_script)()
+local function HLVIY_fake_script() -- darkmenu.Rainbow 
+	local script = Instance.new('LocalScript', darkmenu)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(HLVIY_fake_script)()
+local function WCRUAZH_fake_script() -- hhresp.Rainbow 
+	local script = Instance.new('LocalScript', hhresp)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(WCRUAZH_fake_script)()
+local function ZJAGQ_fake_script() -- split.Rainbow 
+	local script = Instance.new('LocalScript', split)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(ZJAGQ_fake_script)()
+local function SYHZADY_fake_script() -- antivoid.Rainbow 
+	local script = Instance.new('LocalScript', antivoid)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(SYHZADY_fake_script)()
+local function FZPKCO_fake_script() -- multichecker.Rainbow 
+	local script = Instance.new('LocalScript', multichecker)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(FZPKCO_fake_script)()
+local function RVCZ_fake_script() -- daily.Rainbow 
+	local script = Instance.new('LocalScript', daily)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(RVCZ_fake_script)()
+local function VQXCVS_fake_script() -- weekly.Rainbow 
+	local script = Instance.new('LocalScript', weekly)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(VQXCVS_fake_script)()
+local function ZTCB_fake_script() -- rightarrow.Rainbow 
+	local script = Instance.new('LocalScript', rightarrow)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(ZTCB_fake_script)()
+local function WCBAL_fake_script() -- closemain.Rainbow 
+	local script = Instance.new('LocalScript', closemain)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(WCBAL_fake_script)()
+local function OIWDHBE_fake_script() -- attackoff.Rainbow 
+	local script = Instance.new('LocalScript', attackoff)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(OIWDHBE_fake_script)()
+local function ASVPTDK_fake_script() -- spawnon.Rainbow 
+	local script = Instance.new('LocalScript', spawnon)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(ASVPTDK_fake_script)()
+local function JUZA_fake_script() -- psychicon.Rainbow 
+	local script = Instance.new('LocalScript', psychicon)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(JUZA_fake_script)()
+local function NJLEU_fake_script() -- earrape.Rainbow 
+	local script = Instance.new('LocalScript', earrape)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(NJLEU_fake_script)()
+local function YVTP_fake_script() -- hitlag.Rainbow 
+	local script = Instance.new('LocalScript', hitlag)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(YVTP_fake_script)()
+local function XBYF_fake_script() -- spawnoff.Rainbow 
+	local script = Instance.new('LocalScript', spawnoff)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(XBYF_fake_script)()
+local function WGSCKFW_fake_script() -- psychicoff.Rainbow 
+	local script = Instance.new('LocalScript', psychicoff)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(WGSCKFW_fake_script)()
+local function BYPKYW_fake_script() -- rejoin.Rainbow 
+	local script = Instance.new('LocalScript', rejoin)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(BYPKYW_fake_script)()
+local function OQDA_fake_script() -- removeff.Rainbow 
+	local script = Instance.new('LocalScript', removeff)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(OQDA_fake_script)()
+local function DTEDRTK_fake_script() -- god.Rainbow 
+	local script = Instance.new('LocalScript', god)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(DTEDRTK_fake_script)()
+local function SWBV_fake_script() -- keyinfo.Rainbow 
+	local script = Instance.new('LocalScript', keyinfo)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(SWBV_fake_script)()
+local function OAIRDR_fake_script() -- attackon.Rainbow 
+	local script = Instance.new('LocalScript', attackon)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(OAIRDR_fake_script)()
+local function GEDZLV_fake_script() -- leftarrow.Rainbow 
+	local script = Instance.new('LocalScript', leftarrow)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(GEDZLV_fake_script)()
+local function UUXNJHM_fake_script() -- open.Rainbow 
+	local script = Instance.new('LocalScript', open)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(UUXNJHM_fake_script)()
+local function KJAQQ_fake_script() -- loginkeyinfo.Rainbow 
+	local script = Instance.new('LocalScript', loginkeyinfo)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(KJAQQ_fake_script)()
+local function YKGKVFB_fake_script() -- closekeyinfo.Rainbow 
+	local script = Instance.new('LocalScript', closekeyinfo)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.7)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(YKGKVFB_fake_script)()
